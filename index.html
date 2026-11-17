@@ -1,21 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>Dots Countdown</title>
-    <link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
-<link rel="stylesheet" href="./style.css">
-
-  </head>
-    
-  <body>
-  <canvas id="canvas-number"></canvas>
-<canvas id="canvas-dots"></canvas>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
-<!--    //cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script> -->
-    <script src="./script.js"></script>
-
-  </body>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css" media="all" />
+  <title>Countdown to GTA-6</title>
+</head>
+<body>
+  <div class="main-content">
+    <div class="notice">
+      <h1>Release of GTA-6.</h1>
+      <h3>More specifically, in:</h3>
+      <div class="countdown">
+        <p class="timer">
+          <span id="days"></span> Day(s)
+          <span id="hours"></span> Hour(s)
+          <span id="minutes"></span > Minute(s)
+          <span id="seconds"></span> Second(s)
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="./js/countdown.js" defer></script>
+</body>
 </html>
