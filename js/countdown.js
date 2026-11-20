@@ -45,5 +45,5 @@ function countdown(endDate) {
 }
 
 (function () { 
-  countdown('11/19/2026 5:00:00 AM'); 
+  countdown('11/20/2026 11:59:59 AM'); 
 }());
